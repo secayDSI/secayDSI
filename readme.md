@@ -4,7 +4,7 @@
 * 🙂 MI NOMBRE ES SEBASTIAN FERNANDO CAYLLAHUI SOCA
 * 🌱 ACTUALMENTE ESTUDIO DESARROLLO DE SISTEMAS DE LA INFORMACION 
 * 🐱‍💻 EN ESTE ESPACIO PUBLICARE MIS ACTIVIDADES EN MI CURSO DE TALLER DE PROGRAMACION WE II
-* 🗨 Contact me to share our knowledge
+* 🗨 BELIEVER BEING GO START SPIKING RAYO MCQUEEN
 --------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------
