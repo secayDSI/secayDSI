@@ -11,7 +11,7 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RuizAnais&show_icons=true&theme=radical)
 --------------------------------------------------------------------------------------------
 # 🌱 Tomorrow there will be more
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RuizAnais&layout=compact)](https://github.com/RuizAnais/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RuizAnais&layout=compact)](https://github.com/sebastiancayllahui/github-readme-stats)
 
 --------------------------------------------------------------------------------------------
 <h3> <b> TEXT ME </b></h3>
