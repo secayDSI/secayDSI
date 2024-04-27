@@ -1,9 +1,9 @@
 <div style="text-align:center">
-<h1> Hi people </h1>
+<h1> ESPERO QUE SE ENCUENTRE BIEN INDEPENDIENTEMENTE DE QUE DIA ESTE PRESENTE </h1>
 
-* 🙂 My name is Anais
-* 🌱 I'm studying Information Systems Development
-* 🐱‍💻 In this space you can find my projects with everything I'm learning
+* 🙂 MI NOMBRE ES SEBASTIAN FERNANDO CAYLLAHUI SOCA
+* 🌱 ACTUALMENTE ESTUDIO DESARROLLO DE SISTEMAS DE LA INFORMACION 
+* 🐱‍💻 EN ESTE ESPACIO PUBLICARE MIS ACTIVIDADES EN MI CURSO DE TALLER DE PROGRAMACION WE II
 * 🗨 Contact me to share our knowledge
 --------------------------------------------------------------------------------------------
 # STEP BY STEP
