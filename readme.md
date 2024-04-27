@@ -6,7 +6,8 @@
 * 🐱‍💻 EN ESTE ESPACIO PUBLICARE MIS ACTIVIDADES EN MI CURSO DE TALLER DE PROGRAMACION WE II
 * 🗨 Contact me to share our knowledge
 --------------------------------------------------------------------------------------------
-# STEP BY STEP
+# WHITE
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RuizAnais&show_icons=true&theme=radical)
 --------------------------------------------------------------------------------------------
 # 🌱 Tomorrow there will be more
