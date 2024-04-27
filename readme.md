@@ -6,12 +6,6 @@
 * 🐱‍💻 EN ESTE ESPACIO PUBLICARE MIS ACTIVIDADES EN MI CURSO DE TALLER DE PROGRAMACION WE II
 * 🗨 Contact me to share our knowledge
 --------------------------------------------------------------------------------------------
-# WHITE
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RuizAnais&show_icons=true&theme=radical)
---------------------------------------------------------------------------------------------
-# 🌱 Tomorrow there will be more
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RuizAnais&layout=compact)](https://github.com/sebastiancayllahui/github-readme-stats)
 
 --------------------------------------------------------------------------------------------
 <h3> <b> TEXT ME </b></h3>
