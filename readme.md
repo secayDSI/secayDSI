@@ -15,6 +15,6 @@
 ![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
 ![](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
 
-![LOGO](https://clipart-library.com/images/5cRK9XK8i.gif)
+
 
 </p>
