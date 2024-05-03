@@ -7,7 +7,7 @@
 * 🗨 BELIEVER BEING GO START SPIKING RAYO MCQUEEN
   
 --------------------------------------------------------------------------------------------
-<p><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftecnologybellavist.wixsite.com%2Fmisitio%2Fcopia-de-electronica&psig=AOvVaw21GeVvTgQ9eC56YB_XqWQ-&ust=1714840659931000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCJCsnLb18YUDFQAAAAAdAAAAABAE" ></p>
+<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftecnologybellavist.wixsite.com%2Fmisitio%2Fcopia-de-electronica&psig=AOvVaw21GeVvTgQ9eC56YB_XqWQ-&ust=1714840659931000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCJCsnLb18YUDFQAAAAAdAAAAABAE" alt="foto">
 --------------------------------------------------------------------------------------------
 <h3> <b> TEXT ME </b></h3>
 <br>
