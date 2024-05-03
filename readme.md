@@ -1,12 +1,13 @@
 <div style="text-align:center">
-<h1> ESPERO QUE SE ENCUENTRE BIEN INDEPENDIENTEMENTE DE QUE DIA ESTE PRESENTE </h1>
+<h1> PERFIL </h1>
 
 * 🙂 MI NOMBRE ES SEBASTIAN FERNANDO CAYLLAHUI SOCA
 * 🌱 ACTUALMENTE ESTUDIO DESARROLLO DE SISTEMAS DE LA INFORMACION 
 * 🐱‍💻 EN ESTE ESPACIO PUBLICARE MIS ACTIVIDADES EN MI CURSO DE TALLER DE PROGRAMACION WE II
 * 🗨 BELIEVER BEING GO START SPIKING RAYO MCQUEEN
+  
 --------------------------------------------------------------------------------------------
-
+<p><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftecnologybellavist.wixsite.com%2Fmisitio%2Fcopia-de-electronica&psig=AOvVaw21GeVvTgQ9eC56YB_XqWQ-&ust=1714840659931000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCJCsnLb18YUDFQAAAAAdAAAAABAE" ></p>
 --------------------------------------------------------------------------------------------
 <h3> <b> TEXT ME </b></h3>
 <br>
