@@ -1,0 +1,115 @@
+/* Estilos para la página de Contacto */
+/* Asegúrate de que este archivo esté en la misma ubicación que contacto.html */
+
+/* Estilos para el encabezado */
+header.encabezado {
+    background-color: #660066; /* Morado oscuro más suave para el encabezado */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative; /* Agregamos posicionamiento relativo para el efecto de paralaje */
+    z-index: 1; /* Aseguramos que el encabezado esté por encima del contenido */
+  }
+  
+  header.encabezado h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Times New Roman", serif; /* Fuente más elegante */
+  }
+  
+  /* Estilos para el título de la página de Contacto */
+  header.encabezado h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: "Arial", sans-serif; /* Fuente más limpia para el subtítulo */
+  }
+  
+  /* Estilos para el contenedor de la página de Contacto */
+  main.contacto {
+    max-width: 1000px;
+    margin: 4rem auto; /* Añadimos un margen superior e inferior para separar el contenido del encabezado y el pie de página */
+    padding: 2rem;
+  }
+  
+  /* Estilos para la información de contacto */
+  section.info-contacto {
+    margin-bottom: 2rem;
+  }
+  
+  section.info-contacto h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #0055AA; /* Azul oscuro más suave para los títulos de sección */
+    font-family: "Georgia", serif; /* Fuente más elegante para los títulos */
+  }
+  
+  section.info-contacto p {
+    font-size: 1.2rem;
+    color: #333; /* Color de texto más oscuro */
+    line-height: 1.6;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #ccc; /* Borde suave para el formulario */
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Fondo más claro para el formulario */
+  }
+  
+  form h3 {
+    font-size: 1.6rem;
+    color: #0055AA; /* Azul oscuro más suave para el título del formulario */
+    margin-bottom: 1rem;
+    font-family: "Georgia", serif; /* Fuente más elegante para el título del formulario */
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333; /* Texto más oscuro para las etiquetas */
+    font-family: "Arial", sans-serif; /* Fuente limpia para las etiquetas */
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc; /* Borde suave para los campos de entrada */
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  body{
+    background-color: #999999;
+    margin: 0;
+  }
+  form textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el área de texto */
+  }
+  
+  form button {
+    background-color: #0055AA; /* Botón de color azul oscuro */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer.pie-pagina {
+    background-color: #660066; /* Morado oscuro más suave para el pie de página */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    position: relative; /* Agregamos posicionamiento relativo para el efecto de paralaje */
+    z-index: 1; /* Aseguramos que el pie de página esté por encima del contenido */
+  }
+  
