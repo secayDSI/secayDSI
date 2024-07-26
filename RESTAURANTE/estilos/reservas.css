@@ -1,0 +1,106 @@
+/* Estilos para la página de Reservas */
+/* Asegúrate de que este archivo esté en la misma ubicación que reservas.html */
+
+/* Estilos para el encabezado */
+header.encabezado {
+    background-color: #003300; /* Verde oscuro más suave para el encabezado */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative; /* Agregamos posicionamiento relativo para el efecto de paralaje */
+    z-index: 1; /* Aseguramos que el encabezado esté por encima del contenido */
+  }
+  
+  header.encabezado h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Times New Roman", serif; /* Fuente más elegante */
+  }
+  
+  /* Estilos para el título de la página de Reservas */
+  header.encabezado h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: "Arial", sans-serif; /* Fuente más limpia para el subtítulo */
+  }
+  
+  /* Estilos para el contenedor de la página de Reservas */
+  main.reservas {
+    max-width: 1000px;
+    margin: 4rem auto; /* Añadimos un margen superior e inferior para separar el contenido del encabezado y el pie de página */
+    padding: 2rem;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form h3 {
+    font-size: 1.6rem;
+    color: #0055AA;
+    margin-bottom: 1.5rem;
+    font-family: "Georgia", serif;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    font-family: "Arial", sans-serif;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #0055AA;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+form button:hover {
+    background-color: #003377;
+}
+
+  
+  /* Estilos para el pie de página */
+  footer.pie-pagina {
+    background-color: #003300; /* Verde oscuro más suave para el pie de página */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    position: relative; /* Agregamos posicionamiento relativo para el efecto de paralaje */
+    z-index: 1; /* Aseguramos que el pie de página esté por encima del contenido */
+  }
+  body{
+    background-color: #999999;
+    margin: 0;
+  }
