@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, 
+	initial-scale=1.0,
+	 maximum-scale=1.0, minimum-scale=1.0">
+	<title>Restaurant</title>
+
+	<!-- Normalize V8.0.1 -->
+	<link rel="stylesheet" href="./css/normalize.css">
+
+	<!-- MDBootstrap V5 -->
+	<link rel="stylesheet" href="./css/mdb.min.css">
+
+	<!-- Font Awesome V5.15.1 -->
+	<link rel="stylesheet" href="./css/all.css">
+
+	<!-- Sweet Alert V10.13.0 -->
+	<script src="./js/sweetalert2.js" ></script>
+
+	<!-- General Styles -->
+	<link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body id="main-body">
+
+	<!-- Header -->
+	<header class="header full-box bg-white">
+	    <div class="header-brand full-box">
+	        <a href="index.html">
+	            <img src="./assets/img/logo.png" alt="Designlopers" class="img-fluid">
+	        </a>
+	    </div>
+
+	    <div class="header-options full-box">
+	        <nav class="header-navbar full-box poppins-regular font-weight-bold scroll" 
+			onclick="show_menu_mobile()" >
+	            <ul class="list-unstyled full-box" >
+	                <li>
+	                    <a href="index.html" >Inicio</a>
+	                </li>
+	                <li>
+	                    <a href="menu.html" >Menú</a>
+	                </li>
+	                <li>
+	                    <a href="registration.html" >Regístrate</a>
+	                </li>
+	                <li>
+	                    <a href="signin.html" >Login</a>
+	                </li>
+	            </ul>
+	        </nav>
+	        <a href="bag.html" class="header-button full-box text-center" title="Carrito" >
+	            <i class="fas fa-shopping-bag"></i>
+	            <span class="badge bg-primary rounded-pill bag-count">2</span>
+	        </a>
+
+	        <div class="header-button full-box text-center" id="userMenu" data-mdb-toggle="dropdown" 
+			aria-haspopup="true" aria-expanded="false" title="Nombre de usuario" >
+	            <i class="fas fa-user-circle"></i>
+	        </div>
+	        <div class="dropdown-menu div-bordered popup-login" aria-labelledby="userMenu">
+	            <p class="text-center" style="padding-top: 10px;">
+	                <i class="fas fa-user-circle fa-3x"></i><br>
+	                <small>Nombre de usuario</small>
+	            </p>
+	            <a class="dropdown-item" href="javascript:void(0);">
+	                <i class="fab fa-dashcube fa-fw"></i> &nbsp; Dashboard
+	            </a>
+	            <a class="dropdown-item" href="javascript:void(0);">
+	                <i class="fas fa-sign-out-alt"></i> &nbsp; Cerrar sesión
+	            </a>
+	        </div>
+
+	        <a href="javascript:void(0);" class="header-button full-box text-center d-lg-none" title="Menú"
+			 onclick="show_menu_mobile()" >
+	            <i class="fas fa-bars"></i>
+	        </a>
+	    </div>
+	</header>
+
+
+	<!-- Content -->
+	<div class="banner">
+	    <div class="banner-body">
+	        <h3 class="text-uppercase">Bienvenido a Villa Maria
+			</h3>
+	        <p>Los mejores platillos y la mejor calidad los encuentras en este RESTAURANTE</p>
+	        <a href="menu.html" class="btn btn-warning"><i class="fas fa-hamburger fa-fw"></i> &nbsp; Ir al menu</a>
+	    </div>
+	</div>
+
+	<div class="container container-web-page">
+	    <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestros servicios</h3>
+	    <br>
+	    <div class="row">
+	        <div class="col-12 col-sm-6 col-md-4">
+	            <p class="text-center"><i class="fas fa-shipping-fast fa-5x"></i></p>
+	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Envíos a domicilio</h5>
+	            <p class="text-center"></p>
+	        </div>
+	        <div class="col-12 col-sm-6 col-md-4">
+	            <p class="text-center"><i class="fas fa-utensils fa-5x"></i></p>
+	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Ventas al por mayor</h5>
+	            <p class="text-center"></p>
+	        </div>
+	        <div class="col-12 col-sm-6 col-md-4">
+	            <p class="text-center"><i class="fas fa-store-alt fa-5x"></i></p>
+	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Reservaciones de local</h5>
+	            <p class="text-center"></p>
+	        </div>
+	    </div>
+	</div>
+
+	<hr>
+
+	<div class="container-fluid container-web-page">
+	    <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestros platillos más populares</h3>
+	    <div class="container-cards full-box mb-4">
+
+	      <div class="card-product div-bordered bg-white shadow-2">
+	          <figure class="card-product-img">
+	              <img class="img-fluid" src="./assets/img/lomo saltado.jpg" alt="nombre_platillo">
+	          </figure>
+	          <div class="card-product-body">
+	              <div class="card-product-content">
+	                  <h5 class="text-center fw-bolder">Lomo Saltado</ainah5>
+	                  <p class="card-product-price text-center fw-bolder">S/ 25.00 soles</p>
+	                  <span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					  <p>Es un plato de fusión muy popular que mezcla las tradiciones chinas del salteado con ingredientes peruanos que incluyen ají amarillo, cilantro y tomate</p>
+	              </div>
+	              <div class="text-center card-product-options" style="padding: 10px 0;">
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                  &nbsp; &nbsp;
+	                  <a href="./details/lomosaltado.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+	                  &nbsp; &nbsp;
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-heart fa-fw"></i></button>
+	              </div>
+	          </div>
+	      </div>
+
+	      <div class="card-product div-bordered bg-white shadow-2">
+	          <figure class="card-product-img">
+	              <img class="img-fluid" src="./assets/img/rocoto relleno.jpg" alt="nombre_platillo">
+	          </figure>
+	          <div class="card-product-body">
+	              <div class="card-product-content">
+	                  <h5 class="text-center fw-bolder">Rocoto Relleno</ainah5>
+	                  <p class="card-product-price text-center fw-bolder">S/ 35.99 soles</p>
+	                  <span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					  <p> Su apariencia es similar a la de los pimientos, pero con una piel más gruesa y una gama de colores que varía entre el verde, rojo y amarillo a medida que madura.</p>
+
+	              </div>
+	              <div class="text-center card-product-options" style="padding: 10px 0;">
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                  &nbsp; &nbsp;
+	                  <a href="./details/rocoto.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+	                  &nbsp; &nbsp;
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-muted" ><i class="fas fa-heart fa-fw"></i></button>
+	              </div>
+	          </div>
+	      </div>
+
+	      <div class="card-product div-bordered bg-white shadow-2">
+	          <figure class="card-product-img">
+	              <img class="img-fluid" src="./assets/img/aji de gallina.jpg" alt="nombre_platillo">
+	          </figure>
+	          <div class="card-product-body">
+	              <div class="card-product-content">
+	                  <h5 class="text-center fw-bolder">Aji de Gallina</ainah5>
+	                  <p class="card-product-price text-center fw-bolder">S/ 25.99 soles</p>
+	                  <span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					  <p>Consiste en un ají o crema espesa con pechuga de gallina deshilachada. Esta crema es servida con papas cocidas, y en ocasiones con arroz 
+						blanco. Es común reemplazar la gallina por pollo.</p>
+	              </div>
+	              <div class="text-center card-product-options" style="padding: 10px 0;">
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                  &nbsp; &nbsp;
+	                  <a href="./details/ajigallina.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+	                  &nbsp; &nbsp;
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-heart fa-fw"></i></button>
+	              </div>
+	          </div>
+	      </div>
+
+	      <div class="card-product div-bordered bg-white shadow-2">
+	          <figure class="card-product-img">
+	              <img class="img-fluid" src="./assets/img/bistec.jpg" alt="nombre_platillo">
+	          </figure>
+	          <div class="card-product-body">
+	              <div class="card-product-content">
+	                  <h5 class="text-center fw-bolder">Bistec</ainah5>
+	                  <p class="card-product-price text-center fw-bolder">S/ 44.99 soles</p>
+	                  <span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					  <p>Se Refiere a cualquier corte de carne roja que haya sido cortada en forma de filete para el consumo humano.</p>
+	              </div>
+	              <div class="text-center card-product-options" style="padding: 10px 0;">
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                  &nbsp; &nbsp;
+	                  <a href="./details/bistec.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+	                  &nbsp; &nbsp;
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-muted" ><i class="fas fa-heart fa-fw"></i></button>
+	              </div>
+	          </div>
+	      </div>
+		  <div class="card-product div-bordered bg-white shadow-2">
+			<figure class="card-product-img">
+				<img class="img-fluid" src="./assets/img/pacha.jpeg" alt="nombre_platillo">
+			</figure>
+			<div class="card-product-body">
+				<div class="card-product-content">
+					<h5 class="text-center fw-bolder">Pachamanca</ainah5>
+					<p class="card-product-price text-center fw-bolder">S/ 37.99 soles</p>
+					<span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					<p>Es uno de los platos más tradicionales de la gastronomía peruana. Su nombre proviene de las palabras en quechua pacha “tierra” y manka “olla”, 
+						siendo su significado “olla de tierra”.</p>
+				</div>
+				<div class="text-center card-product-options" style="padding: 10px 0;">
+					<button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+					&nbsp; &nbsp;
+					<a href="./details/pachamanca.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+					&nbsp; &nbsp;
+					<button type="button" class="btn btn-link btn-sm btn-rounded text-muted" ><i class="fas fa-heart fa-fw"></i></button>
+				</div>
+			</div>			
+		</div>
+
+		<div class="card-product div-bordered bg-white shadow-2">
+			<figure class="card-product-img">
+				<img class="img-fluid" src="./assets/img/tallarines.jpg" alt="nombre_platillo">
+			</figure>
+			<div class="card-product-body">
+				<div class="card-product-content">
+					<h5 class="text-center fw-bolder">Tallarines a la Huancaina</ainah5>
+					<p class="card-product-price text-center fw-bolder">S/ 19.99 soles</p>
+					<span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					<p>Tallarines en salsa Huancaina con Milanesa crocante de Pescado </p>
+				</div>
+				<div class="text-center card-product-options" style="padding: 10px 0;">
+					<button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+					&nbsp; &nbsp;
+					<a href="./details/tallarines.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+					&nbsp; &nbsp;
+					<button type="button" class="btn btn-link btn-sm btn-rounded text-muted" ><i class="fas fa-heart fa-fw"></i></button>
+				</div>
+			</div>
+		</div>
+	    </div>
+	    <p class="text-center"><a href="menu.html" class="btn btn-primary"><i class="fas fa-hamburger fa-fw"></i> &nbsp; Ir al menu</a></p>
+	</div>
+	<hr>
+
+	<!--Bebidas-->
+
+	<div class="container-fluid container-web-page">
+	    <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestras Bebidas Más Populares</h3>
+	    <div class="container-cards full-box mb-4">
+
+	      <div class="card-product div-bordered bg-white shadow-2">
+	          <figure class="card-product-img">
+	              <img class="img-fluid" src="./assets/img/mojito.png" alt="nombre_platillo">
+	          </figure>
+	          <div class="card-product-body">
+	              <div class="card-product-content">
+	                  <h5 class="text-center fw-bolder">Mojito</ainah5>
+	                  <p class="card-product-price text-center fw-bolder">S/ 15.00 soles</p>
+	                  <span class="full-box text-center text-muted" style="display: block;">En stock pero agotable
+					  </span>
+					  <p>Un clásico que combina a la perfección la frescura del limón, la dulzura del azúcar y la intensidad del ron. </p>
+	              </div>
+	              <div class="text-center card-product-options" style="padding: 10px 0;">
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                  &nbsp; &nbsp;
+	                  <a href="./details2/mojito.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+	                  &nbsp; &nbsp;
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-heart fa-fw"></i></button>
+	              </div>
+	          </div>
+	      </div>
+
+	      <div class="card-product div-bordered bg-white shadow-2">
+	          <figure class="card-product-img">
+	              <img class="img-fluid" src="./assets/img/sangria.jpg" alt="nombre_platillo">
+	          </figure>
+	          <div class="card-product-body">
+	              <div class="card-product-content">
+	                  <h5 class="text-center fw-bolder">Sangria</ainah5>
+	                  <p class="card-product-price text-center fw-bolder">S/ 10.00 soles</p>
+	                  <span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					  <p>Combina vino tinto con una variedad de frutas cortadas en trozos. Al servirla, notarás cómo los sabores se fusionan, creando una combinación
+						 perfecta entre el vino y la dulzura de las frutas. </p>
+	              </div>
+	              <div class="text-center card-product-options" style="padding: 10px 0;">
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                  &nbsp; &nbsp;
+	                  <a href="./details2/sangria.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+	                  &nbsp; &nbsp;
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-muted" ><i class="fas fa-heart fa-fw"></i></button>
+	              </div>
+	          </div>
+	      </div>
+
+	      <div class="card-product div-bordered bg-white shadow-2">
+	          <figure class="card-product-img">
+	              <img class="img-fluid" src="./assets/img/corona.jpeg" alt="nombre_platillo">
+	          </figure>
+	          <div class="card-product-body">
+	              <div class="card-product-content">
+	                  <h5 class="text-center fw-bolder">Corona</ainah5>
+	                  <p class="card-product-price text-center fw-bolder">S/ 8.00 soles</p>
+	                  <span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					  <p>Corona Premier es perfecta para las reuniones informales, para compartir con los invitados o como recompensa tras un día intenso.</p>
+	              </div>
+	              <div class="text-center card-product-options" style="padding: 10px 0;">
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                  &nbsp; &nbsp;
+	                  <a href="./details2/corona.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+	                  &nbsp; &nbsp;
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-heart fa-fw"></i></button>
+	              </div>
+	          </div>
+	      </div>
+
+	      <div class="card-product div-bordered bg-white shadow-2">
+	          <figure class="card-product-img">
+	              <img class="img-fluid" src="./assets/img/pilsen.jpeg" alt="nombre_platillo">
+	          </figure>
+	          <div class="card-product-body">
+	              <div class="card-product-content">
+	                  <h5 class="text-center fw-bolder">Pilsen</ainah5>
+	                  <p class="card-product-price text-center fw-bolder">S/ 6.00 soles</p>
+	                  <span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					  <p>Cerveza Pilsen Callao Botella 305 ml - Grado de Alcohol 5% </p>
+	              </div>
+	              <div class="text-center card-product-options" style="padding: 10px 0;">
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+	                  &nbsp; &nbsp;
+	                  <a href="./details2/pilsen.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+	                  &nbsp; &nbsp;
+	                  <button type="button" class="btn btn-link btn-sm btn-rounded text-muted" ><i class="fas fa-heart fa-fw"></i></button>
+	              </div>
+	          </div>
+	      </div>
+		  <div class="card-product div-bordered bg-white shadow-2">
+			<figure class="card-product-img">
+				<img class="img-fluid" src="./assets/img/gaseosa.jpeg" alt="nombre_platillo">
+			</figure>
+			<div class="card-product-body">
+				<div class="card-product-content">
+					<h5 class="text-center fw-bolder">Gaseosa<aina/h5>
+					<p class="card-product-price text-center fw-bolder">S/ 7.00 soles</p>
+					<span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					<p>Gaseosa Inka Kola Botella 1.5 L.</p>
+				</div>
+				<div class="text-center card-product-options" style="padding: 10px 0;">
+					<button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+					&nbsp; &nbsp;
+					<a href="./details2/gaseosa.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+					&nbsp; &nbsp;
+					<button type="button" class="btn btn-link btn-sm btn-rounded text-muted" ><i class="fas fa-heart fa-fw"></i></button>
+				</div>
+			</div>			
+		</div>
+
+		<div class="card-product div-bordered bg-white shadow-2">
+			<figure class="card-product-img">
+				<img class="img-fluid" src="./assets/img/limonada frozen.jpeg" alt="nombre_platillo">
+			</figure>
+			<div class="card-product-body">
+				<div class="card-product-content">
+					<h5 class="text-center fw-bolder">Limonada Frozen</ainah5>
+					<p class="card-product-price text-center fw-bolder">S/ 13.00 soles</p>
+					<span class="full-box text-center text-muted" style="display: block;">En stock</span>
+					<p>Elaborado a a base de limón, agua y azúcar.</p>
+				</div>
+				<div class="text-center card-product-options" style="padding: 10px 0;">
+					<button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
+					&nbsp; &nbsp;
+					<a href="./details2/limonada.html" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
+					&nbsp; &nbsp;
+					<button type="button" class="btn btn-link btn-sm btn-rounded text-muted" ><i class="fas fa-heart fa-fw"></i></button>
+				</div>
+			</div>
+		</div>
+	    </div>
+	    <p class="text-center"><a href="menu.html" class="btn btn-primary"><i class="fas fa-hamburger fa-fw"></i> &nbsp; Ir al menu</a></p>
+	</div>
+	<hr>
+
+	<!-- Footer -->
+	<footer class="footer">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-12 col-md-4">
+	                <ul class="list-unstyled" >
+	                    <li><h5 class="font-weight-bold" ><i class="far fa-copyright"></i> Cayllahui Soca 2024</h5></li>
+	                    <li> Todos los derechos reservados </li>
+	                </ul>
+	            </div>
+	            <div class="col-12 col-md-4">
+	                <ul class="list-unstyled" >
+	                    <li><h5 class="font-weight-bold" >Perú</h5></li>
+	                    <li><i class="fas fa-map-marker-alt fa-fw"></i> Lima, Chaclacayo, Sur América</li>
+	                </ul>
+	            </div>
+	            <div class="col-12 col-md-4">
+	                <ul class="list-unstyled" >
+	                    <li><h5 class="font-weight-bold" >Siguenos en:</h5> </li>
+	                    <li>
+	                        <a href="https://es-la.facebook.com/" class="footer-link" target="_blank" >
+	                            <i class="fab fa-facebook fa-fw"></i> Facebook
+	                        </a>
+	                    </li>
+
+	                    <li>
+	                        <a href="https://www.youtube.com/" class="footer-link" target="_blank" >
+	                            <i class="fab fa-youtube fa-fw"></i>
+	                                Youtube
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+
+
+	<!-- MDBootstrap V5 -->
+	<script src="./js/mdb.min.js" ></script>
+
+	<!-- General scripts -->
+	<script src="./js/main.js" ></script>
+</body>
+</html>
